@@ -8,7 +8,7 @@ The paper is under review.
 
 Visit our [project page](https://haipengzhou856.github.io/paper_page/STAN/STAN.html) to find more details. Thanks for your attention : )
 
-![STAN](./asset./STAN.png)
+![STAN](./asset/STAN.png)
 
 
 
