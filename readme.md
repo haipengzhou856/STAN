@@ -26,15 +26,15 @@ My basic environment: `Python=3.8, CUDA=12.2, Pytorch=1.11.0` . And essential pa
 conda env create -f environment.yaml
 ```
 
-### use **[accelerate](https://huggingface.co/docs/accelerate/index)** to distribute train
+### use **[accelerate](https://huggingface.co/docs/accelerate/index)** 🤗to apply distribute train
 
-see the doc from **[accelerate](https://huggingface.co/docs/accelerate/index)**, and run the command:
+see the doc from **[accelerate](https://huggingface.co/docs/accelerate/index)**🤗, and run the command:
 
 ```
 accelerate config
 ```
 
-to adjust the GPUs, mix-precision. 
+to adjust the platform settings, like number of GPUs, mix-precision and etc.
 
 ## Training
 
@@ -52,15 +52,15 @@ And it will produce following outputs
 ------exp_name
 --------ckpt_path       # store the ckpt
 --------log_path        # store the logs
---------pred_result     # store the predictions of each ckpt
---------tb_path         # store the tensorboard infomation
+--------pred_result     # store the predictions
+--------tb_path         # store the tensorboard information
 ```
 
 
 
 ## TODO
 
-* Pre-trained ckpt. I cannot find the best one 😓,  and I'm trying to reconstruct it. 
+* Pre-trained ckpt. I cannot find and match the best one 😓 when I modify the network structure,  and I'm trying to reconstruct it. 
 * The `engine/tester.py` . I'm lazy to apply it 🤪. Maybe you can just modify the `engine/trainer.py` for evaluation.
 
 ## Note
